@@ -1,0 +1,12 @@
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\obj\Debug\TinyBattery.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\bin\Debug\TinyBattery.dll
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\bin\Debug\TinyBattery.pdb
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\bin\Debug\0Harmony.dll
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\bin\Debug\Assembly-CSharp.dll
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\bin\Debug\UnityEngine.dll
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\bin\Debug\UnityEngine.CoreModule.xml
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\obj\Debug\TinyBattery.csproj.CopyComplete
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\obj\Debug\TinyBattery.dll
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\obj\Debug\TinyBattery.pdb
