@@ -2,5 +2,5 @@
  Mods that I made
 
 
-# Information
-Some parts are based on the work by [Cairath](https://github.com/Cairath/ONI-Mods) and [Nightinggale](https://github.com/Nightinggale/ONI-mods)
+# Special Thanks
+* To [@Cairath](https://github.com/Cairath/), on whos [CaiLib](https://github.com/Cairath/ONI-Mods/tree/master/src/CaiLib) I based my pwLib and who helped me on the ONI Discord
