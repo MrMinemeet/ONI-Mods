@@ -3,4 +3,4 @@
 
 
 # Information
-Some parts are inspired by [Cairath](https://github.com/Cairath/ONI-Mods) and [Nightinggale](https://github.com/Nightinggale/ONI-mods)
+Some parts are based on the work by [Cairath](https://github.com/Cairath/ONI-Mods) and [Nightinggale](https://github.com/Nightinggale/ONI-mods)
