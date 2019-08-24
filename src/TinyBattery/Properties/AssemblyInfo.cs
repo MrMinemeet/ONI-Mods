@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("TinyBattery")]
-[assembly: AssemblyCopyright("Copyright ©MrMinemeet 2019")]
+[assembly: AssemblyCopyright("Copyright ©ProjectWhitespace  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Die folgende GUID bestimmt die ID der Typbibliothek, wenn dieses Projekt für COM verfügbar gemacht wird
-[assembly: Guid("56397daf-9096-4bc3-b490-e63683a63edf")]
+[assembly: Guid("8a07bf0e-0e62-473b-ab63-0c82a894f1ed")]
 
 // Versionsinformationen für eine Assembly bestehen aus den folgenden vier Werten:
 //

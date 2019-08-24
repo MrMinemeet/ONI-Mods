@@ -1,0 +1,15 @@
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\bin\Release\TinyBattery.dll
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\bin\Release\TinyBattery.pdb
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\bin\Release\0Harmony.dll
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\bin\Release\Assembly-CSharp-firstpass.dll
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\bin\Release\Assembly-CSharp.dll
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\bin\Release\UnityEngine.CoreModule.dll
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\bin\Release\UnityEngine.dll
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\bin\Release\UnityEngine.CoreModule.xml
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\obj\Release\TinyBattery.csprojAssemblyReference.cache
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\obj\Release\TinyBattery.Properties.Resources.resources
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\obj\Release\TinyBattery.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\obj\Release\TinyBattery.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\obj\Release\TinyBattery.csproj.CopyComplete
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\obj\Release\TinyBattery.dll
+C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\obj\Release\TinyBattery.pdb

@@ -1,0 +1,19 @@
+<project outputDir="C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\obj\Release" baseDir="C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\obj\Release" xmlns="http://confuser.codeplex.com">
+<rule pattern="true" />
+<module path="TinyBattery.dll">
+<rule pattern="true">
+<protection id="anti ildasm" />
+<protection id="constants" />
+<protection id="ctrl flow" />
+<protection id="ref proxy" />
+<protection id="resources" />
+<protection id = "rename" >
+<argument name = "mode" value = "letters" />
+<argument name = "renPublic" value = "false" />
+</protection >
+</rule>
+</module>
+<probePath>C:\Users\Alex\Documents\Klei\OxygenNotIncluded\mods\mod_dev</probePath>
+<probePath>C:\Windows\Microsoft.NET\Framework\v2.0.50727</probePath>
+<probePath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5</probePath>
+</project>

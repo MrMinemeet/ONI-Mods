@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyBattery", "TinyBattery\TinyBattery.csproj", "{8A07BF0E-0E62-473B-AB63-0C82A894F1ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pwLib", "pwLib", "{E04F02CD-6425-4F58-9A97-F15FAE3EA394}"
+	ProjectSection(SolutionItems) = preProject
+		pwLib\BuildingUtils.cs = pwLib\BuildingUtils.cs
+		pwLib\GameStrings.cs = pwLib\GameStrings.cs
+		pwLib\StringUtils.cs = pwLib\StringUtils.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A07BF0E-0E62-473B-AB63-0C82A894F1ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A07BF0E-0E62-473B-AB63-0C82A894F1ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A07BF0E-0E62-473B-AB63-0C82A894F1ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A07BF0E-0E62-473B-AB63-0C82A894F1ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB6328E4-E0B7-4239-B4CB-696D37D1CEEF}
+	EndGlobalSection
+EndGlobal
