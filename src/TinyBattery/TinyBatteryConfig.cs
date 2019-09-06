@@ -23,11 +23,17 @@ namespace ProjectWhitespace.TinyBattery
             float exhaust_temperature_active = BUILDINGS.EXHAUST_ENERGY_ACTIVE.TIER1;
             float self_heat_kilowatts_active = BUILDINGS.SELF_HEAT_KILOWATTS.TIER1;
             EffectorValues none = NOISE_POLLUTION.NONE;
-
             BuildingDef buildingDef = this.CreateBuildingDef(ID, width, height, hitpoints, anim, construction_time, construction_mass, coonstruction_materials, melting_point, exhaust_temperature_active, self_heat_kilowatts_active, BUILDINGS.DECOR.PENALTY.TIER0, none);
             buildingDef.Breakable = true;
+            buildingDef.Floodable = true;
+            buildingDef.PermittedRotations = PermittedRotations.R360;
+            buildingDef.BuildLocationRule = BuildLocationRule.OnFoundationRotatable;
             SoundEventVolumeCache.instance.AddVolume("batterysm_kanim", "Battery_rattle", NOISE_POLLUTION.NOISY.TIER1);
             return buildingDef;
+        }
+        public override void ConfigureBuildingTemplate(GameObject go, Tag prefab_tag)
+        {
+            BuildingConfigManager.Instance.IgnoreDefaultKComponent(typeof(RequiresFoundation), prefab_tag);
         }
 
         public override void DoPostConfigurePreview(BuildingDef def, GameObject go)

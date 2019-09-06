@@ -13,3 +13,9 @@ C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\obj\Release\TinyBattery.cspr
 C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\obj\Release\TinyBattery.csproj.CopyComplete
 C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\obj\Release\TinyBattery.dll
 C:\Users\Alex\source\repos\ONI-Mods\src\TinyBattery\obj\Release\TinyBattery.pdb
+F:\GitHub\ONI-Mods\src\TinyBattery\obj\Release\TinyBattery.csprojAssemblyReference.cache
+F:\GitHub\ONI-Mods\src\TinyBattery\obj\Release\TinyBattery.Properties.Resources.resources
+F:\GitHub\ONI-Mods\src\TinyBattery\obj\Release\TinyBattery.csproj.GenerateResource.cache
+F:\GitHub\ONI-Mods\src\TinyBattery\obj\Release\TinyBattery.csproj.CoreCompileInputs.cache
+F:\GitHub\ONI-Mods\src\TinyBattery\obj\Release\TinyBattery.dll
+F:\GitHub\ONI-Mods\src\TinyBattery\obj\Release\TinyBattery.pdb
