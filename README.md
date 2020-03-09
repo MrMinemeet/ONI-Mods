@@ -17,4 +17,4 @@
 # List
 |        **Type**         | **Name**                            | **Description** |                        **Workshop**                                  |
 | :---------------------: | :---------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------: |
-| **Build** | Tiny Battery | Adds a tiny 1x1 (Smart) Battery) to the game which stores less Energy but needs less resources | [link](https://steamcommunity.com/sharedfiles/filedetails/?id=1843834993)
+| **Build** | Tiny Battery | Adds two tiny 1x1 (Smart) Batteries) to the game which stores less Energy but needs less resources | [link](https://steamcommunity.com/sharedfiles/filedetails/?id=1843834993)
