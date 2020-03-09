@@ -1,0 +1,14 @@
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\mmmLib\bin\Debug\mmmLib.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\mmmLib\bin\Debug\mmmLib.pdb
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\mmmLib\bin\Debug\0Harmony.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\mmmLib\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\mmmLib\bin\Debug\Assembly-CSharp.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\mmmLib\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\mmmLib\bin\Debug\UnityEngine.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\mmmLib\obj\Debug\mmmLib.csprojAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\mmmLib\obj\Debug\mmmLib.csproj.CopyComplete
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\mmmLib\obj\Debug\mmmLib.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\mmmLib\obj\Debug\mmmLib.pdb
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\mmmLib\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\mmmLib\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\mmmLib\bin\Debug\UnityEngine.UI.dll

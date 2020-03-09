@@ -1,0 +1,16 @@
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\TinyBattery\bin\Debug\TinyBattery.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\TinyBattery\bin\Debug\TinyBattery.pdb
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\TinyBattery\bin\Debug\0Harmony.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\TinyBattery\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\TinyBattery\bin\Debug\Assembly-CSharp.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\TinyBattery\bin\Debug\mmmLib.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\TinyBattery\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\TinyBattery\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\TinyBattery\bin\Debug\UnityEngine.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\TinyBattery\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\TinyBattery\bin\Debug\UnityEngine.UI.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\TinyBattery\bin\Debug\mmmLib.pdb
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\TinyBattery\obj\Debug\TinyBattery.csprojAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\TinyBattery\obj\Debug\TinyBattery.csproj.CopyComplete
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\TinyBattery\obj\Debug\TinyBattery.dll
+C:\Users\Alex\Documents\GitHub\ONI-Mods\ONI-Mods\TinyBattery\obj\Debug\TinyBattery.pdb
