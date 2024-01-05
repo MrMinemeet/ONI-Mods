@@ -3,3 +3,7 @@
 **\_ConfuserEx\
 .idea/
 .vs/
+
+# Build results
+**/bin/
+**/obj/
