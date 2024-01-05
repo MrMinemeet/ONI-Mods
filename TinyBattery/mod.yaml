@@ -1,0 +1,7 @@
+title: "Tiny Battery"
+description: "Adds a 1x1 battery which stores a bit of energy."
+staticID: "mmm.tinybattery"
+supportedContent: ALL
+minimumSupportedBuild: 469112
+version: 1.0.0
+APIVersion: 2
