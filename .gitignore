@@ -1,3 +1,5 @@
 **\.vs\ONI-Mods\*
 *.lock
 **\_ConfuserEx\
+.idea/
+.vs/
