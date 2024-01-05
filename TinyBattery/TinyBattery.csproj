@@ -4,13 +4,14 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{63E25A4C-A3D9-4C8C-BB3A-1BB6C7251C93}</ProjectGuid>
+        <ProjectGuid>{6D1A7756-DE95-413E-8BDC-07EB840ED81A}</ProjectGuid>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>mmmLib</RootNamespace>
-        <AssemblyName>mmmLib</AssemblyName>
-        <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+        <RootNamespace>TinyBattery</RootNamespace>
+        <AssemblyName>TinyBattery</AssemblyName>
+        <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
+        <LangVersion>7.1</LangVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -62,10 +63,17 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="BuildingUtils.cs" />
-        <Compile Include="GameStrings.cs" />
+        <Compile Include="ModInfo.cs" />
+        <Compile Include="Patcher.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-        <Compile Include="StringUtils.cs" />
+        <Compile Include="TinyBatteryConfig.cs" />
+        <Compile Include="TinySmartBatteryConfig.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\mmmLib\mmmLib.csproj">
+        <Project>{63e25a4c-a3d9-4c8c-bb3a-1bb6c7251c93}</Project>
+        <Name>mmmLib</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
