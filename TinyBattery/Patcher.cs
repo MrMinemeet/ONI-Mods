@@ -1,8 +1,7 @@
 ﻿using Harmony;
 using mmmLib;
-using mmmUtils;
 
-namespace MrMinemeet.TinyBattery
+namespace TinyBattery
 {
     public static class BuildingGenerationPatches
     {

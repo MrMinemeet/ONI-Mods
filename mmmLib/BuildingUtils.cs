@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using TUNING;
 
-namespace mmmUtils
+namespace mmmLib
 {
     public static class BuildingUtils
     { 

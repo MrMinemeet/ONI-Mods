@@ -1,4 +1,4 @@
-﻿namespace MrMinemeet.TinyBattery
+﻿namespace TinyBattery
 {
     public static class ModInfo
     {

@@ -1,6 +1,6 @@
 ﻿namespace mmmLib
 {
-    public class StringUtils
+    public static class StringUtils
     {
         /// <summary>
         /// Adds Strings for Building

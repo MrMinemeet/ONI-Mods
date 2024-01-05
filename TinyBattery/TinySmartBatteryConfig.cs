@@ -2,7 +2,7 @@
 using TUNING;
 using UnityEngine;
 
-namespace MrMinemeet.TinyBattery
+namespace TinyBattery
 {
     public class TinySmartBatteryConfig : BaseBatteryConfig
     {
