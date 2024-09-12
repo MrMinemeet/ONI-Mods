@@ -1,8 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyBattery", "TinyBattery\TinyBattery.csproj", "{6D1A7756-DE95-413E-8BDC-07EB840ED81A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mmmLib", "mmmLib\mmmLib.csproj", "{63E25A4C-A3D9-4C8C-BB3A-1BB6C7251C93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +15,8 @@ Global
 		{6D1A7756-DE95-413E-8BDC-07EB840ED81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D1A7756-DE95-413E-8BDC-07EB840ED81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D1A7756-DE95-413E-8BDC-07EB840ED81A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{63E25A4C-A3D9-4C8C-BB3A-1BB6C7251C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63E25A4C-A3D9-4C8C-BB3A-1BB6C7251C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63E25A4C-A3D9-4C8C-BB3A-1BB6C7251C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63E25A4C-A3D9-4C8C-BB3A-1BB6C7251C93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
