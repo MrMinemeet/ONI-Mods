@@ -4,6 +4,9 @@
 .idea/
 .vs/
 
+# Don't include game data from lib
+lib/
+
 # Build results
 **/bin/
 **/obj/
