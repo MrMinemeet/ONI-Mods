@@ -1,9 +1,8 @@
 # ONI-Mods
- Mods that I made
-
+ Mods that I made for the game [Oxygen Not Included](https://store.steampowered.com/app/457140/Oxygen_Not_Included/)
 
 # Special Thanks
-* To [@Cairath](https://github.com/Cairath/), Who helped me on the ONI Discord
+* To [@Cairath](https://github.com/Cairath/),who helped me on the ONI Discord
 
 # Modlist
 ## Type of mods
@@ -17,4 +16,4 @@
 # List
 |        **Type**         | **Name**                            | **Description** |                        **Workshop**                                  |
 | :---------------------: | :---------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------: |
-| **Build** | Tiny Battery | Adds two tiny 1x1 (Smart) Batteries) to the game which stores less Energy but needs less resources | [link](https://steamcommunity.com/sharedfiles/filedetails/?id=1843834993)
+| **Build** | Tiny Battery | Adds two tiny 1x1 (Smart) Batteries to the game which stores less Energy but needs less resources | [link](https://steamcommunity.com/sharedfiles/filedetails/?id=1843834993)
