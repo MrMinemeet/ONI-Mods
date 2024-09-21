@@ -1,10 +1,5 @@
 using HarmonyLib;
-using System.Collections.Generic;
-using System;
-using TUNING;
-using UnityEngine.Diagnostics;
 using System.Reflection;
-using static STRINGS.RESEARCH.TECHS;
 
 namespace TinyBattery
 {

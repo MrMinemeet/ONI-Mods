@@ -10,9 +10,9 @@ namespace TinyBattery
             {
                 public class TINYBATTERY
                 {
-                    public static LocString NAME = UI.FormatAsLink("Tiny Battery", TinyBatteryConfig.ID);
-                    public static LocString DESC = "A tiny battery for small spaces.";
-                    public static LocString EFFECT = "Stores a small amount of power.";
+                    public readonly static LocString NAME = UI.FormatAsLink("Tiny Battery", TinyBatteryConfig.ID);
+                    public readonly static LocString DESC = "A tiny battery for small spaces.";
+                    public readonly static LocString EFFECT = "Stores a small amount of power.";
                 }
             }
         }
