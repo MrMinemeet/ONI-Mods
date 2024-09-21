@@ -11,33 +11,39 @@ namespace TinyBattery {
     {
         public const string ID = "TinyBattery";
 
+        private const int WIDTH = 1;
+        private const int HEIGHT = 1;
+        private const string ANIMATION = "batterymed_kanim";
+
 
         public override BuildingDef CreateBuildingDef()
         {
             LocString.CreateLocStringKeys(typeof(TinyBatteryStrings.BUILDINGS));
 
-            const int width = 1;
-            const int height = 1;
-            const int hitpoints = BUILDINGS.HITPOINTS.TIER0;
-            const string anim = "batterymed_kanim";
-            const float construction_time = BUILDINGS.CONSTRUCTION_TIME_SECONDS.TIER1;
-            float[] construction_mass = BUILDINGS.CONSTRUCTION_MASS_KG.TIER2;
-            string[] coonstruction_materials = MATERIALS.ALL_METALS;
-            const float melting_point = BUILDINGS.MELTING_POINT_KELVIN.TIER0;
-            const float exhaust_temperature_active = BUILDINGS.EXHAUST_ENERGY_ACTIVE.TIER1;
-            const float self_heat_kilowatts_active = BUILDINGS.SELF_HEAT_KILOWATTS.TIER1;
-            EffectorValues none = NOISE_POLLUTION.NONE;
+            BuildingDef buildingDef = this.CreateBuildingDef(
+                ID, 
+                WIDTH, 
+                HEIGHT,
+                BUILDINGS.HITPOINTS.TIER0, 
+                ANIMATION,
+                BUILDINGS.CONSTRUCTION_TIME_SECONDS.TIER1,
+                BUILDINGS.CONSTRUCTION_MASS_KG.TIER2,
+                MATERIALS.ALL_METALS,
+                BUILDINGS.MELTING_POINT_KELVIN.TIER0,
+                BUILDINGS.EXHAUST_ENERGY_ACTIVE.TIER1,
+                BUILDINGS.SELF_HEAT_KILOWATTS.TIER1, 
+                BUILDINGS.DECOR.PENALTY.TIER0,
+                NOISE_POLLUTION.NONE);
 
-            BuildingDef buildingDef = this.CreateBuildingDef(ID, width, height, hitpoints, anim, construction_time,
-                construction_mass, coonstruction_materials, melting_point, exhaust_temperature_active,
-                self_heat_kilowatts_active, BUILDINGS.DECOR.PENALTY.TIER0, none);
             buildingDef.Breakable = true;
-            buildingDef.Floodable = true;
             buildingDef.PermittedRotations = PermittedRotations.R360;
             buildingDef.BuildLocationRule = BuildLocationRule.OnFoundationRotatable;
             buildingDef.ObjectLayer = ObjectLayer.Building;
 
-            SoundEventVolumeCache.instance.AddVolume("batterysm_kanim", "Battery_rattle", NOISE_POLLUTION.NOISY.TIER1);
+            SoundEventVolumeCache.instance.AddVolume("batterymed_kanim", "Battery_rattle", NOISE_POLLUTION.NOISY.TIER1);
+
+            // TODO: Fix incorrectly sized and placed "charge display" on the building
+
             return buildingDef;
         }
 
