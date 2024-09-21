@@ -6,15 +6,16 @@ namespace TinyBattery
     /// <summary>
     /// This class is responsible for creating the Tiny Battery building.
     /// It extends the BaseBatteryConfig class with a few properties that are specific to the Tiny Battery.
-    /// E.g. size of 1x1 (instead of 1x2) and other tweaks.
+    /// E.g. size of 1x1 (instead of 2x2) and other tweaks.
     /// </summary>
     internal class TinyBatteryConfig : BaseBatteryConfig
     {
         public const string ID = "TinyBattery";
 
-        private const int WIDTH = 1;
-        private const int HEIGHT = 1;
-        private const string ANIMATION = "batterysm_kanim";
+        protected const int WIDTH = 1;
+        protected const int HEIGHT = 1;
+
+        private const string ANIMATION = "batterymed_kanim";
 
         public override BuildingDef CreateBuildingDef()
         {
@@ -40,7 +41,7 @@ namespace TinyBattery
             buildingDef.BuildLocationRule = BuildLocationRule.OnFoundationRotatable;
             buildingDef.ObjectLayer = ObjectLayer.Building;
 
-            SoundEventVolumeCache.instance.AddVolume("batterysm_kanim", "Battery_rattle", NOISE_POLLUTION.NOISY.TIER1);
+            SoundEventVolumeCache.instance.AddVolume("batterymed_kanim", "Battery_rattle", NOISE_POLLUTION.NOISY.TIER1);
             return buildingDef;
         }
 
@@ -56,18 +57,19 @@ namespace TinyBattery
 
         public override void DoPostConfigureComplete(GameObject go)
         {
+            ShrinkAnimationSize(go);
             Battery battery = go.AddOrGet<Battery>();
             battery.capacity = 5000f;
-            battery.joulesLostPerSecond = (float)((double)battery.capacity * 0.100000001490116 / 600.0);
-            ShrinkAnimationSize(go);
+            battery.joulesLostPerSecond = (float)(battery.capacity * 0.100000001490116 / 600.0);
             base.DoPostConfigureComplete(go);
         }
 
         // Shrink the animation size of the Tiny Battery.
-        private void ShrinkAnimationSize(GameObject go)
+        protected void ShrinkAnimationSize(GameObject go)
         {
-            // Even though this reduces the size of the 1x2 animation to 0.5x1 in theory,
-            // it looks much better and overall fits the 1x1 size.
+            // FIXME: Currently not everything of the "animation" is scaled properly. This includes the following:
+            // * The "charge indicator"
+            // * Logic activation light on smart battery
             go.GetComponent<KBatchedAnimController>().animHeight = 0.5f;
             go.GetComponent<KBatchedAnimController>().animWidth = 0.5f;
         }
