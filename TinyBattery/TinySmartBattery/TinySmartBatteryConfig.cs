@@ -66,12 +66,10 @@ namespace TinyBattery
 
         public override void DoPostConfigureComplete(GameObject go)
         {
-            ShrinkAnimationSize(go);
+            base.DoPostConfigureComplete(go);
             BatterySmart batterySmart = go.AddOrGet<BatterySmart>();
-            batterySmart.capacity = 5000f;
             batterySmart.joulesLostPerSecond = (float)(batterySmart.capacity * 0.0199999995529652 / 600.0);
             batterySmart.powerSortOrder = 1000;
-            base.DoPostConfigureComplete(go);
         }
     }
 }

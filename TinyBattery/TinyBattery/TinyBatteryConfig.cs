@@ -57,11 +57,12 @@ namespace TinyBattery
 
         public override void DoPostConfigureComplete(GameObject go)
         {
+            base.DoPostConfigureComplete(go);
             ShrinkAnimationSize(go);
             Battery battery = go.AddOrGet<Battery>();
             battery.capacity = 5000f;
             battery.joulesLostPerSecond = (float)(battery.capacity * 0.100000001490116 / 600.0);
-            base.DoPostConfigureComplete(go);
+            
         }
 
         // Shrink the animation size of the Tiny Battery.
